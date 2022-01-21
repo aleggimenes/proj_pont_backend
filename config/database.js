@@ -73,11 +73,11 @@ module.exports = {
   pg: {
     client: 'pg',
     connection: {
-      host: Env.get('DB_HOST', 'localhost'),
-      port: Env.get('DB_PORT', ''),
-      user: Env.get('DB_USER', 'root'),
-      password: Env.get('DB_PASSWORD', ''),
-      database: Env.get('DB_DATABASE', 'adonis')
+      host: Env.get('DB_HOST', 'ec2-54-208-139-247.compute-1.amazonaws.com'),
+      port: Env.get('DB_PORT', '5432'),
+      user: Env.get('DB_USER', 'bcrzjeiwtoqsrd'),
+      password: Env.get('DB_PASSWORD', '40eb8eb50f26b1af36e85ff8f88b9c06d76d2a312909f4fb3009d2a7d52c8cb1'),
+      database: Env.get('DB_DATABASE', 'dcaveu5oksldng')
     },
     debug: Env.get('DB_DEBUG', false)
   }
